@@ -47,14 +47,14 @@ public class Main {
         System.out.println("task 9");
         int total2 = 0;
         for (int t = 0; t <= 12; t = t + 1) {
-            total2 = total2 + total2/100;
             total2 = total2 + sal;
+            total2 = total2 + total2/100;
             System.out.println("Месяц " + t + ", сумма накоплений равна " + total2 + " рублей");
         }
 
         System.out.println("task 10");
         int i = 0;
-        for (int u = 0; u <= 10; u = u + 1) {
+        for (int u = 1; u <= 10; u = u + 1) {
             i = 2 * u;
             System.out.println("2 * " + u + " = " + i);
         }
