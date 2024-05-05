@@ -45,10 +45,10 @@ public class Main {
         }
 
         System.out.println("task 9");
-        int total2 = 0;
-        for (int t = 0; t <= 12; t = t + 1) {
-            total2 = total2 + sal;
+        int total2 = 29000;
+        for (int t = 1; t <= 12; t = t + 1) {
             total2 = total2 + total2/100;
+            total2 = total2 + sal;
             System.out.println("Месяц " + t + ", сумма накоплений равна " + total2 + " рублей");
         }
 
